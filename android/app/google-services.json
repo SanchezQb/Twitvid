@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1093862798003",
+    "firebase_url": "https://twitvid-c589e.firebaseio.com",
+    "project_id": "twitvid-c589e",
+    "storage_bucket": "twitvid-c589e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093862798003:android:db232f2bbfa419debbf6c6",
+        "android_client_info": {
+          "package_name": "com.spectrumsixdigital.Twitvid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1093862798003-nfvfreipcoo84iqe7opor9v5s7tlk6bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBalN9FGURZPm9kOWrPLjiBdN391QI6Dyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1093862798003-nfvfreipcoo84iqe7opor9v5s7tlk6bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
