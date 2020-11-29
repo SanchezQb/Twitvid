@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:hive/hive.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:share/share.dart';
+import '../../../utils/snackbar.dart' as CustomSnackbar;
 
 class SettingsController extends GetxController {
   void sendFeedback() async {
@@ -35,6 +36,10 @@ class SettingsController extends GetxController {
     final Box videosBox = Hive.box('videos');
     videosBox.clear();
     Get.back();
+    CustomSnackbar.SnackBar.showSnackbar(
+      "Success",
+      "History Cleared Successfully",
+    );
   }
 
   void showClearHistoryDialog() {

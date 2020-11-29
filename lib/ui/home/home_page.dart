@@ -54,7 +54,12 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(width: 3),
                     Text(
                       "witvid",
-                      style: TextStyle(fontWeight: FontWeight.w700),
+                      style: TextStyle(
+                        fontWeight: FontWeight.w700,
+                        color: Theme.of(context).brightness == Brightness.dark
+                            ? Colors.white
+                            : kPrimaryBlue,
+                      ),
                     )
                   ],
                 ),

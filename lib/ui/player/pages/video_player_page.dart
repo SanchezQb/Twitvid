@@ -40,11 +40,8 @@ class _VideoPlayerPageState extends State<VideoPlayerPage> {
         backgroundColor: Colors.black,
       ),
       body: Center(
-        child: AspectRatio(
-          aspectRatio: 1,
-          child: BetterPlayer(
-            controller: _betterPlayerController,
-          ),
+        child: BetterPlayer(
+          controller: _betterPlayerController,
         ),
       ),
     );

@@ -158,8 +158,8 @@ class _GetLinkPageState extends State<GetLinkPage> {
               child: Padding(
                 padding: const EdgeInsets.only(
                   bottom: 8.0,
-                  left: 20.0,
-                  right: 20.0,
+                  left: 10.0,
+                  right: 10.0,
                 ),
                 child: Container(
                   decoration: BoxDecoration(

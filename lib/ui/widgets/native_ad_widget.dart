@@ -21,11 +21,14 @@ class NativeAdWidget extends StatelessWidget {
     return NativeAdmob(
       adUnitID: adUnitID,
       loading: Container(),
-      error: Text("Failed to load the ad"),
+      error: Container(),
       controller: adController,
       type: adMobType,
       options: NativeAdmobOptions(
-        adLabelTextStyle: NativeTextStyle(backgroundColor: kPrimaryBlue),
+        adLabelTextStyle: NativeTextStyle(
+          backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+          color: _textColor,
+        ),
         callToActionStyle: NativeTextStyle(backgroundColor: kPrimaryBlue),
         bodyTextStyle: NativeTextStyle(color: _textColor),
         advertiserTextStyle: NativeTextStyle(color: _textColor),

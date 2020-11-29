@@ -32,7 +32,6 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       enableLog: false,
       title: 'Twitvid',
-      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
         buttonTheme: kButtonThemeLight,
